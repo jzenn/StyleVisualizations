@@ -1,0 +1,13 @@
+action:                                   train                                                         # the action performed
+image_path:                               ./../data/testset_style                                       # path to the style images
+image_folder:                             testset_style                                                 # *name* of the style image folder
+image_saving_path_mean:                   ./data/style_visualizations/mean                              # path to save the *mean* optimized images to
+image_saving_path_mean_std:               ./data/style_visualizations/mean_std                          # path to save the *mean* and *std* optimized images to
+image_saving_path_mean_std_skew:          ./data/style_visualizations/mean_std_skew                     # path to save the *mean*, *std* and *skew* optimized images to
+image_saving_path_mean_std_skew_kurtosis: ./data/style_visualizations/mean_std_skew_kurtosis            # path to save the *mean*, *std*, *skew* and *kurtosis* optimized images to
+image_saving_path_gram:                   ./data/style_visualizations/gram                              # path to save the *gram* optimized images to
+image_saving_path_mmd:                    ./data/style_visualizations/mmd                               # path to save the *MMD* optimized images to
+image_saving_path_moment_comparison':     ./data/style_visualizations/moment_comparison                 # path to save the comparison images to
+model_dir:                                ./../data/torchvision_models                                  # path of the pre-trained VGG-19 model
+model_url:                                https://download.pytorch.org/models/vgg19-dcbb9e9d.pth        # URL of the PyTorch VGG-19 model
+layers:                                   ['relu_1_1', 'relu_1_2', 'relu_2_1', 'relu_2_2']              # layers on which gradient descent is done on noise image

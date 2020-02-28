@@ -1,0 +1,7 @@
+action:                                   train_mmd                                                     # the action to perform (train, train_mmd, train_gram)
+image_path:                               ./../data/testset_style                                       # path to the style images
+image_folder:                             testset_style                                                 # *name* of the style image folder
+image_saving_path_mmd:                    ./data/style_visualizations/mmd                               # path to save the *MMD* optimized images to
+model_dir:                                ./../data/torchvision_models                                  # path of the pre-trained VGG-19 model
+model_url:                                https://download.pytorch.org/models/vgg19-dcbb9e9d.pth        # URL of the PyTorch VGG-19 model
+layers:                                   ['relu_1_1', 'relu_1_2', 'relu_2_1', 'relu_2_2']              # layers on which gradient descent is done on noise image
