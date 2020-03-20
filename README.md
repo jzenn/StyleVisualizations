@@ -42,10 +42,10 @@ configuration that is used e.g. ```python main.py './configurations/train.yaml'`
 moment loss.
 
 - ```train_mmd.yaml``` produces style visualizations where the MMD 
-is utilized as loss function. Please also see **(cite Schölkopf et al.)**.
+is utilized as loss function. Please also see [2].
 
 - ```train_gram.yaml``` produces style visualizations with the original by Gatys 
-et al **(cite Gatys et al.)** proposed Gram matrix loss as a baseline. 
+et al [3] proposed Gram matrix loss as a baseline. 
 
 ### Additional Information
 
@@ -61,3 +61,10 @@ The final thesis can be found **(link here)** in a corrected and modified versio
 [1] A. Mahendran and A. Vedaldi. Understanding deep image representations 
 by inverting them. In *The IEEE Conference on Computer Vision and 
 Pattern Recognition (CVPR), 2015*.
+
+[2] A. Gretton, K. Borgwardt, M. Rasch, B. Schölkopf, and A. Smola. 
+A kernel two-sample test. In *J. Mach. Learn. Res., 2012*.
+
+[3] L. Gatys, A. Ecker, and M. Bethge. Texture synthesis using 
+convolutional neural networks. In *Conference on Neural Information 
+Processing Systems (NIPS), 2015*.
