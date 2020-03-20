@@ -1,7 +1,7 @@
 # Style Visualizations
 
 This project implements the a style visualization algorithm proposed by Mahendran
-et al. in **(cite Mahendran et al.)**. Gradient descent is performed on a noise image to
+et al. in *[1]*. Gradient descent is performed on a noise image to
 match the (style) features of a style image produced by an encoder network. 
 
 - The project is written in Python ```3.7``` and uses PyTorch ```1.1``` 
@@ -54,4 +54,10 @@ style visualizations network makes up one chapter of the final thesis. A slightl
 version of the chapter can be found in this repository as a pdf-file. Also, the chapter 
 introduces all related formulas to this work. 
 
-The final thesis can be found **(link here)** in a corrected and modified version. 
+The final thesis can be found **(link here)** in a corrected and modified version.
+
+### References
+
+[1] A. Mahendran and A. Vedaldi. Understanding deep image representations 
+by inverting them. In *The IEEE Conference on Computer Vision and 
+Pattern Recognition (CVPR), 2015*.
