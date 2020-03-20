@@ -1,7 +1,7 @@
 # Style Visualizations
 
 This project implements the a style visualization algorithm proposed by Mahendran
-et al. in *[1]*. Gradient descent is performed on a noise image to
+et al. in [1]. Gradient descent is performed on a noise image to
 match the (style) features of a style image produced by an encoder network. 
 
 - The project is written in Python ```3.7``` and uses PyTorch ```1.1``` 
